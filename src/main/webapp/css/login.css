@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+/* 전체 텍스트에 East Sea Dokdo 글꼴 적용 */
+body {
+    font-family: 'East Sea Dokdo', sans-serif;
+}
+
+/* 프로젝트 스타일 */
+.container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 600px;
+    background: #ffffff;
+    border: 3px solid #9999ff;
+    box-shadow: 4px 4px 31px #a97bf5;
+    border-radius: 50px;
+    margin: 50px auto;
+   
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+
+h2 {
+    width: 350;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 37px;
+    color: #a97bf5;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+   
+}
+
+.input-group {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group #id{
+	margin: 0px 0px 0px 20px;
+}
+
+.input-group #pass{
+	margin: 0px 0px 0px 10px;
+}
+
+.button {
+    width: 40px;
+    height: 50px;
+    background-color: #336fa0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 0 0px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #CFCFCF;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin: 0px auto;
+    font-family: 'East Sea Dokdo', sans-serif; /* 버튼 내의 폰트도 East Sea Dokdo로 변경 */
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    padding: 0px 0px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 20px 20px 0 20px;
+    background: #b3b3ff;
+    font-family: 'East Sea Dokdo', sans-serif; /* 버튼 내의 폰트도 East Sea Dokdo로 변경 */
+    
+}
+
+label {
+    color: rgb(95, 89, 89);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+
+.project img {
+    margin-bottom: 20px; /* 이미지 아래 여백 추가 */
+}
+
+.detail-info {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.info-row {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info-label {
+    margin-right: 10px;
+}
+
+.button-row {
+    
+    margin-top: 20px;
+}
+
+.button {
+    margin-right: 10px;
+}

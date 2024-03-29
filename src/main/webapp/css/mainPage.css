@@ -1,0 +1,84 @@
+/* 상품 목록 부분 */
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 자동으로 반응형 열 생성 */
+    padding: 0 200px; /* 좌우 여백 추가 */
+    gap: 100px; /* 이미지 사이의 간격 설정 */
+    
+}
+
+hr{
+	color:gray;
+}
+
+h1{
+	font-size: 60px;
+	color:#7B68EE;
+}
+
+.product a{
+	font-size: 24px;
+	text-decoration: none;
+	color: #7B68EE;
+}
+.product {
+	padding: 0	 0px;
+	width: 100%;
+    margin: 50px 0px; /* 각 상품 사이 여백 조정 */
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px; /* 상품 카드에 둥근 테두리 적용 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 미세한 그림자 추가 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 호버시 애니메이션 효과 */
+}
+
+p.product-price {
+	font-size: 20px;
+	text-align:center; 
+}
+
+.product:hover {
+    transform: translateY(-2px); /* 마우스 호버시 약간 위로 이동 */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* 그림자 강화 */
+}
+
+.product-img {
+    width: 90%;
+    max-width: 100%; /* 이미지의 최대 너비를 100%로 설정 */
+    margin-top:10px;
+    height: auto;
+    border-radius: 20px; /* 이미지에도 둥근 테두리 적용 */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* 이미지 호버시 애니메이션 효과 */
+}
+
+.product:hover .product-img {
+    transform: scale(1.1); /* 마우스 호버시 이미지 확대 */
+}
+
+.product-info {
+    margin-top: 15px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #ff4500;
+    font-size: 16px;
+}
+
+.product-link {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.product-link:hover {
+    color: #6c757d;
+}
+
+hr {
+    border: none; /* 기본 테두리를 제거합니다. */
+    height: 3px; /* 수평 선의 높이를 설정합니다. */
+    background-color: #555; /* 수평 선의 색상을 변경합니다. */
+    margin: 40px 0; /* 수평 선 위아래 여백을 설정합니다. */
+}

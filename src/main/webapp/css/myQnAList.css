@@ -1,0 +1,59 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap')
+	;
+
+.east-sea-dokdo-regular {
+	font-family: "East Sea Dokdo", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: 'East Sea Dokdo';
+}
+
+h1 {
+	
+	font-family: 'East Sea Dokdo'; /* East Sea Dokdo 폰트 적용 */
+}
+
+table{
+	border-radius: 10px;
+	width: 400px;
+	height: 200px;	
+	border: 1px solid #d8d8d8;
+	table-layout: fixed;
+}
+
+th{
+	background-color: #8080c0;
+	border-radius: 5px;
+	
+	text-decoration: none;
+}
+
+td{
+	border-radius: 5px;
+	border: 1px solid #d8d8d8;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: middle;
+	 padding: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+.button {
+   padding: 0px 0px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 20px 20px 0 20px;
+    background: #b3b3ff;
+    font-family: 'East Sea Dokdo', sans-serif;
+}
+
+

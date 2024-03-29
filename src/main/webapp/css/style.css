@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+/* 전체 텍스트에 East Sea Dokdo 글꼴 적용 */
+body {
+    font-family: 'East Sea Dokdo', sans-serif;
+}
+
+/* 프로젝트 스타일 */
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 670px;
+    height: 500px;
+    background: #ffffff;
+    border: 3px solid #9999ff;
+    box-shadow: 7px 7px 39px #a97bf5;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+
+h2 {
+    width: 466px;
+    height: 94px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    color: #a97bf5;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 40px;
+    height: 50px;
+    background-color: #336fa0;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    width: 466px;
+    height: 30px;
+    font-family: 'East Sea Dokdo', sans-serif; /* 버튼 내의 폰트도 East Sea Dokdo로 변경 */
+}
+
+label {
+    color: rgb(95, 89, 89);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+
+.project img {
+    margin-bottom: 20px; /* 이미지 아래 여백 추가 */
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.info-row {
+    margin-bottom: 10px;
+}
+
+.info-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button-row {
+    margin-top: 20px;
+}
+
+.button {
+    margin-right: 10px;
+}

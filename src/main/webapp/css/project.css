@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+/* 전체 텍스트에 East Sea Dokdo 글꼴 적용 */
+body {
+    font-family: 'East Sea Dokdo', sans-serif;
+}
+
+/* 프로젝트 스타일 */
+div.project {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 800px;
+    background: #ffffff;
+    border: 3px solid #9999ff;
+    box-shadow: 7px 7px 39px #a97bf5;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin: 20px;
+    padding: 110px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    width: 400px;
+    height: 70px;
+    left: 600px;
+    top: 100px;
+    font-size: 26px;
+    line-height: 42px;
+    color: #a97bf5;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 400px;
+    height: 50px;
+    background-color: #9999ff;
+    color: royalblue;
+    border-radius: 8px;
+    border: #0068FF solid 1px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    width: 350px;
+    height: 30px;
+    font-family: 'East Sea Dokdo', sans-serif;
+    font-size: 15px;
+}
+
+label {
+    color: rgb(95, 89, 89);
+    font-size: 20px;
+}
+
+.radio {
+    align-items: center;
+    font-size: 20pt;
+    width: 15px;
+    height: 15px;
+}
+
+input.agree {
+    align-items: center;
+    font-size: 20pt;
+    width: 15px;
+    height: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px; /* 아이디와 비밀번호 input 요소의 폰트 크기를 20px로 변경 */
+}
+
+input[type=reset],
+input[type=button],
+input[type=submit] {
+    border-radius: 10px;
+    background-color: #336fa0;
+    color: #fff;
+    width: 100px;
+}
